@@ -129,7 +129,7 @@ We are only interested in the heigt column, so we'll save this now as a list.
 
 
 ```python
-height = df.height
+height = df.height.values.tolist()
 print (len(height))
 print (height)
 ```
